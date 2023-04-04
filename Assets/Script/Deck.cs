@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -82,7 +83,18 @@ public class Deck : MonoBehaviour
             temp.transform.localScale= new Vector2 (0.5f,0.5f);
 //pake interface belom               IClicked _clicked = _tile[col, row].GetComponent<IClicked>();
 //pake interface belom               _clicked.Onclick += Onclick;
+        }
     }
-}
+     
 
+    void DeleteChild() 
+    {
+        int child = transform.childCount;
+        for (int i = 1; i<child; i++)
+        {
+            Destroy(this.gameObject.transform.GetChild(i));
+           
+        }
+
+    }
 }
