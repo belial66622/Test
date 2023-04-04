@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd49acb2218c49a730e7e51de8d7e, type: 3}
+  m_Name: Spawn Card Manager
+  m_EditorClassIdentifier: 
+  prefabName: 
+  card:
+  - card: {fileID: 21300000, guid: 61a995909f9415140a1399985c367138, type: 3}
+    location: 0
+    symbol: 2
+    number: 9
+  - card: {fileID: 21300000, guid: df8f739d7f14b6b4e86f81e00d66777e, type: 3}
+    location: 0
+    symbol: 3
+    number: 11
+  - card: {fileID: 21300000, guid: adb04a1352f6ed747b6cbf358d535f2b, type: 3}
+    location: 0
+    symbol: 3
+    number: 7
+  - card: {fileID: 21300000, guid: 0630d2fa651a6574682e75c9af7f0300, type: 3}
+    location: 0
+    symbol: 0
+    number: 0
+  - card: {fileID: 21300000, guid: 6173f96500d876d4e84ab42c2833d404, type: 3}
+    location: 0
+    symbol: 1
+    number: 3
+  - card: {fileID: 21300000, guid: a3691d7a65f054f49b7714a1a4f530c8, type: 3}
+    location: 0
+    symbol: 2
+    number: 5
+  - card: {fileID: 21300000, guid: 14807a349f4882b4a84aa722cd5050c7, type: 3}
+    location: 0
+    symbol: 2
+    number: 8
+  - card: {fileID: 21300000, guid: 159a9a2ac789f3c4e84a90b039a01af2, type: 3}
+    location: 0
+    symbol: 1
+    number: 7
+  - card: {fileID: 21300000, guid: 68dca157e78daae4fa3bba82aa58aaa5, type: 3}
+    location: 0
+    symbol: 2
+    number: 11
+  - card: {fileID: 21300000, guid: 6c16ee90a4896524dbd0fe493094de3c, type: 3}
+    location: 0
+    symbol: 0
+    number: 4
+  - card: {fileID: 21300000, guid: 20746cbc2e49ecb449fd347b0732739a, type: 3}
+    location: 0
+    symbol: 1
+    number: 11
+  - card: {fileID: 21300000, guid: 9af44dc2cf153d34ea1f2c3fb9590002, type: 3}
+    location: 0
+    symbol: 2
+    number: 6
+  - card: {fileID: 21300000, guid: 0727e4caed11a2e43a3265a78829a707, type: 3}
+    location: 0
+    symbol: 3
+    number: 5
+  - card: {fileID: 21300000, guid: 07922a580b55a95429abb9d93da30c9f, type: 3}
+    location: 0
+    symbol: 0
+    number: 2
+  - card: {fileID: 21300000, guid: 25772a933dd5f304c854aec30f23404d, type: 3}
+    location: 0
+    symbol: 0
+    number: 3
+  - card: {fileID: 21300000, guid: bd9b21b2ce2305a4c824a10212a53152, type: 3}
+    location: 0
+    symbol: 3
+    number: 6
+  - card: {fileID: 21300000, guid: 03c38ede2a62174428b442ecd2e4c8fc, type: 3}
+    location: 0
+    symbol: 1
+    number: 4
+  - card: {fileID: 21300000, guid: 234a368d4999f934ab557de16eaf1dc3, type: 3}
+    location: 0
+    symbol: 2
+    number: 7
+  - card: {fileID: 21300000, guid: e1095d642aa98514cbb455e054e40eb9, type: 3}
+    location: 0
+    symbol: 1
+    number: 8
+  - card: {fileID: 21300000, guid: 0de54bcffd46a964596c8594476e39d0, type: 3}
+    location: 0
+    symbol: 1
+    number: 6
+  - card: {fileID: 21300000, guid: ea65b0f1744f0ef46bbb0f686b1a41f2, type: 3}
+    location: 0
+    symbol: 2
+    number: 4
+  - card: {fileID: 21300000, guid: 3e0b4c38bc2253548b1fb0571837879b, type: 3}
+    location: 0
+    symbol: 0
+    number: 11
+  - card: {fileID: 21300000, guid: 583092a559219924192f2ae9d413a74e, type: 3}
+    location: 0
+    symbol: 2
+    number: 0
+  - card: {fileID: 21300000, guid: 4d3e040bcc0a0414dbe8605328500c02, type: 3}
+    location: 0
+    symbol: 3
+    number: 9
+  - card: {fileID: 21300000, guid: 4cd3a60144669f64ba1d5a57a1e50bbb, type: 3}
+    location: 0
+    symbol: 1
+    number: 10
+  - card: {fileID: 21300000, guid: e963e0e8964587a4cb5025e98e57625e, type: 3}
+    location: 0
+    symbol: 3
+    number: 2
+  - card: {fileID: 21300000, guid: 4a87b4967edff7f449565094304b6237, type: 3}
+    location: 0
+    symbol: 0
+    number: 8
+  - card: {fileID: 21300000, guid: ef9a2b66206f25c4b81f2ab05245d7ff, type: 3}
+    location: 0
+    symbol: 1
+    number: 2
+  - card: {fileID: 21300000, guid: 073532673e6b2b24a98803493af1f768, type: 3}
+    location: 0
+    symbol: 0
+    number: 5
+  - card: {fileID: 21300000, guid: 9306013f0fd445c4fbca43bb6282a739, type: 3}
+    location: 0
+    symbol: 0
+    number: 1
+  - card: {fileID: 21300000, guid: aa1138bf36d373f4582dbc5806b60fff, type: 3}
+    location: 0
+    symbol: 1
+    number: 12
+  - card: {fileID: 21300000, guid: b6ab1363db8b5c54c88564949a52922a, type: 3}
+    location: 0
+    symbol: 0
+    number: 9
+  - card: {fileID: 21300000, guid: 26d16c08b960ad14eab067d642afb99a, type: 3}
+    location: 0
+    symbol: 1
+    number: 5
+  - card: {fileID: 21300000, guid: d114fe18bb5e67e40b9fdb3d90935989, type: 3}
+    location: 0
+    symbol: 3
+    number: 0
+  - card: {fileID: 21300000, guid: 24341ecc75db7a4439b657573e585f90, type: 3}
+    location: 0
+    symbol: 2
+    number: 1
+  - card: {fileID: 21300000, guid: 9c6eb238cd50a814ea255e524595420c, type: 3}
+    location: 0
+    symbol: 0
+    number: 12
+  - card: {fileID: 21300000, guid: f33aa1ed2bb7d514785c2036972edfe9, type: 3}
+    location: 0
+    symbol: 3
+    number: 4
+  - card: {fileID: 21300000, guid: 2d9a2f29950cacf45973723901e0fced, type: 3}
+    location: 0
+    symbol: 2
+    number: 3
+  - card: {fileID: 21300000, guid: 9c02d2568c243e646b156156545b315f, type: 3}
+    location: 0
+    symbol: 3
+    number: 12
+  - card: {fileID: 21300000, guid: 0a788d982945bbd4a813dd6b07af28f9, type: 3}
+    location: 0
+    symbol: 3
+    number: 3
+  - card: {fileID: 21300000, guid: 39849860505c03d4c83ff70c71ed3507, type: 3}
+    location: 0
+    symbol: 1
+    number: 9
+  - card: {fileID: 21300000, guid: d9e6de74f5bf4f844b65398bb8bc84d7, type: 3}
+    location: 0
+    symbol: 3
+    number: 8
+  - card: {fileID: 21300000, guid: 508c913049f469d43ae665d809a9f8be, type: 3}
+    location: 0
+    symbol: 3
+    number: 1
+  - card: {fileID: 21300000, guid: acd845683d809a243b8aa53ceef1a450, type: 3}
+    location: 0
+    symbol: 0
+    number: 6
+  - card: {fileID: 21300000, guid: 70a118e829ed8c24ca8bd1d07a425cb9, type: 3}
+    location: 0
+    symbol: 0
+    number: 10
+  - card: {fileID: 21300000, guid: 7f2b01d0dc343fa44a37b454c69b6ee0, type: 3}
+    location: 0
+    symbol: 2
+    number: 10
+  - card: {fileID: 21300000, guid: 186a40e7eeafb6247bf0d838a35fa1b6, type: 3}
+    location: 0
+    symbol: 0
+    number: 7
+  - card: {fileID: 21300000, guid: 07f358df9b18ecb4d892efbd2387162c, type: 3}
+    location: 0
+    symbol: 3
+    number: 10
+  - card: {fileID: 21300000, guid: 685cc2b75d572114d8b71b60b7874ce0, type: 3}
+    location: 0
+    symbol: 2
+    number: 2
+  - card: {fileID: 21300000, guid: 7ae3848e73910bc4ebe4df845e97c44f, type: 3}
+    location: 0
+    symbol: 1
+    number: 1
+  - card: {fileID: 21300000, guid: 42bdda665e16a4141903c3462fa77435, type: 3}
+    location: 0
+    symbol: 1
+    number: 0
+  - card: {fileID: 21300000, guid: f619c99ead6366f4cb03bc8dd889ba96, type: 3}
+    location: 0
+    symbol: 2
+    number: 12
