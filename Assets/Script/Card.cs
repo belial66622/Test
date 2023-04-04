@@ -20,7 +20,7 @@ public class Card : MonoBehaviour
         spritecard = card.Card();
         if (this.transform.childCount == 0)
         {
-            Instantiate(seeCard, transform);
+           seeCard =  Instantiate(seeCard, transform);
         seeCard.GetComponentInChildren<SpriteRenderer>().sprite = spritecard; 
         }
         else
