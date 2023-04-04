@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Deck : MonoBehaviour
@@ -11,7 +12,7 @@ public class Deck : MonoBehaviour
     Card_Struct.ELocation location;
     [SerializeField]Trash trash;
     [SerializeField] GameUI ui;
-
+    [SerializeField] GameObject cardleft;
     public void StartCard(Card_Struct[] deckCard)
 
     {
@@ -21,7 +22,7 @@ public class Deck : MonoBehaviour
         Card_Struct temp;
         for (int i = 0; i<deckCard.Length; i++) 
         {
-            a = Random.Range(0, deckCard.Length);
+            a = UnityEngine.Random.Range(0, deckCard.Length);
             temp = deckCard [i];
             deckCard[i] = deckCard[a];
             deckCard[a] = temp;
@@ -67,4 +68,21 @@ public class Deck : MonoBehaviour
     {
         return numberCard;
     }
+
+    public void SeeCard()
+    {
+        for (int i = 0; i < newDeckCard.Length; i++)
+        {
+                float x = -4 + (i%10) * 1f;
+                float y = 3 - (math.floor(i/10)) * 1.2f;
+                GameObject temp;
+                temp = Instantiate(cardleft,transform);
+                temp.transform.position = new Vector2(x, y);
+                temp.transform.GetComponentInChildren<SpriteRenderer>().sprite = newDeckCard[i].Card();
+            temp.transform.localScale= new Vector2 (0.5f,0.5f);
+//pake interface belom               IClicked _clicked = _tile[col, row].GetComponent<IClicked>();
+//pake interface belom               _clicked.Onclick += Onclick;
+    }
+}
+
 }

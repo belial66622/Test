@@ -5,7 +5,7 @@ using UnityEngine;
 public class InputHandler : MonoBehaviour
 {
     private Camera _mainCamera;
-
+    [SerializeField]private LayerMask layer;
     private void Awake()
     {
         _mainCamera = Camera.main;
@@ -22,20 +22,17 @@ public class InputHandler : MonoBehaviour
     private void RaycastObject(Vector2 screenPosition)
     {
         Vector2 worldPosition = _mainCamera.ScreenToWorldPoint(screenPosition);
-        var hit = Physics2D.Raycast(worldPosition, Vector2.zero);
-        if (hit.collider.transform.TryGetComponent(out Deck deck))
-        {
-            deck.TakeTopCard();
-        }
+        var hit = Physics2D.Raycast(worldPosition, Vector2.zero,Mathf.Infinity,layer);
+        if (hit.collider != null)
+        { if (hit.collider.transform.TryGetComponent(out Deck deck))
+            {
+                deck.TakeTopCard();
+            }
 
-        else if (hit.collider.transform.TryGetComponent(out Trash trash))
-        {
-            trash.SeeCard();
-        }
-
-        else
-        {
-            Debug.Log("Nothing");
+            else if (hit.collider.transform.TryGetComponent(out Trash trash))
+            {
+                trash.SeeCard();
+            }
         }
     }
 }

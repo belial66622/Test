@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,12 +8,14 @@ using UnityEngine.UI;
 public class GameUI : MonoBehaviour
 {
     [SerializeField]private TextMeshProUGUI Deck , Trash;
-    [SerializeField] private Button button;
+    [SerializeField] private Button resetButton;
+    [SerializeField] private Button seeCardButton;
     [SerializeField] private CardManager manager;
     // Start is called before the first frame update
     void Start()
     {
-        OnClickReset();   
+        OnClickReset();
+        OnClickSeeCard();
     }
 
     // Update is called once per frame
@@ -33,11 +36,23 @@ public class GameUI : MonoBehaviour
 
     private void OnClickReset()
     {
-        button.onClick.AddListener(ResetGame);
+        resetButton.onClick.AddListener(ResetGame);
     }
 
     private void ResetGame()
     {
         manager.Onstart();
     }
+
+    private void OnClickSeeCard()
+    { 
+        seeCardButton.onClick.AddListener(SeeCard);
+    }
+
+    private void SeeCard()
+    {
+        manager.SeeCard();
+    }
+
+
 }

@@ -32,4 +32,9 @@ public class CardManager : MonoBehaviour
         }
     }
 
+
+    public void SeeCard()
+    {
+        deck.SeeCard();
+    }
 }

@@ -337,7 +337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -486.29, y: -116}
+  m_AnchoredPosition: {x: -315, y: -82}
   m_SizeDelta: {x: 133.42, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &672809768 stripped
@@ -481,6 +481,7 @@ MonoBehaviour:
   showCard: {fileID: 2068846811}
   trash: {fileID: 672809769}
   ui: {fileID: 1997436727}
+  cardleft: {fileID: 0}
 --- !u!1001 &1404907451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -749,7 +750,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 124, y: 293}
+  m_AnchoredPosition: {x: 124, y: 193}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633901439
@@ -1070,7 +1071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -131, y: 293}
+  m_AnchoredPosition: {x: -131, y: 191}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946871290
@@ -1186,7 +1187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Deck: {fileID: 2132101454}
   Trash: {fileID: 547048831}
-  button: {fileID: 1946871290}
+  resetButton: {fileID: 0}
+  seeCardButton: {fileID: 0}
   manager: {fileID: 2068846809}
 --- !u!4 &1997436728
 Transform:
@@ -1682,7 +1684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 506.1, y: -130.3}
+  m_AnchoredPosition: {x: 343, y: -74}
   m_SizeDelta: {x: 133.42, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2132101453
