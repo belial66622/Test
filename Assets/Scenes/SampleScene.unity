@@ -335,9 +335,9 @@ RectTransform:
   m_Father: {fileID: 678511006}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -315, y: -82}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 77, y: 126}
   m_SizeDelta: {x: 133.42, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &672809768 stripped
@@ -481,7 +481,7 @@ MonoBehaviour:
   showCard: {fileID: 2068846811}
   trash: {fileID: 672809769}
   ui: {fileID: 1997436727}
-  cardleft: {fileID: 0}
+  cardleft: {fileID: 1809605521411417399, guid: 074199503a4a6384a9c01bab139d8602, type: 3}
 --- !u!1001 &1404907451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -620,7 +620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415903313}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0079, y: 0.0053, z: 0}
+  m_LocalPosition: {x: -0.06, y: 0.01, z: 0}
   m_LocalScale: {x: 17.8168, y: 10.121212, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -636,7 +636,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0018550754, y: 0}
@@ -711,6 +711,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8406085653126680674, guid: 79288882531e0054e8da99c29715012f, type: 3}
+      propertyPath: m_Size.x
+      value: 1.6887324
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406085653126680674, guid: 79288882531e0054e8da99c29715012f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0043662786
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 79288882531e0054e8da99c29715012f, type: 3}
@@ -748,9 +756,9 @@ RectTransform:
   m_Father: {fileID: 678511006}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 124, y: 193}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -198, y: -26}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633901439
@@ -1069,9 +1077,9 @@ RectTransform:
   m_Father: {fileID: 678511006}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -131, y: 191}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 191, y: -29}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946871290
@@ -1187,8 +1195,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Deck: {fileID: 2132101454}
   Trash: {fileID: 547048831}
-  resetButton: {fileID: 0}
-  seeCardButton: {fileID: 0}
+  resetButton: {fileID: 1946871290}
+  seeCardButton: {fileID: 1633901439}
   manager: {fileID: 2068846809}
 --- !u!4 &1997436728
 Transform:
@@ -1636,6 +1644,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3dc5cf685cd412489ff322a60fb659e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!4 &2126527278
 Transform:
   m_ObjectHideFlags: 0
@@ -1682,10 +1693,10 @@ RectTransform:
   m_Father: {fileID: 678511006}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 343, y: -74}
-  m_SizeDelta: {x: 133.42, y: 25}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -20, y: 124}
+  m_SizeDelta: {x: 133.41998, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2132101453
 CanvasRenderer:
